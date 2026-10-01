@@ -24,7 +24,7 @@ body{
 display: flex;
 flex-direction: column;
 min-height: 100v;
-background-color: rgb(3, 107, 3);
+background-color: aliceblue;
 }
 
 main{
@@ -34,7 +34,7 @@ flex-direction: center;
 }
 
 .cabecalho-link{
-color: aqua;
+color: white;
 text-decoration: none;  
 }
 
@@ -44,7 +44,7 @@ h1{
 }
 
 footer{
-    background-color: blueviolet;
+    background-color: white;
     padding: 15px 25px;
     color: antiquewhite;
 }
@@ -60,5 +60,5 @@ footer{
 }
 
 .cartao-frente, .cartao-verso{
-    
+
 }
