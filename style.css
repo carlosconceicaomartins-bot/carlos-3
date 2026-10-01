@@ -1,25 +1,64 @@
     *{
-        margin: 0;
-        padding: 0;
-    }
+margin: 0;
+padding: 0;
+}
 
-    .cabecalho{
-        padding: 15px 25px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #1b7400:;
-    }
+.cabecalho{
+padding: 15px 25px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: green;
+}
 
-    .cartao{
-        width: 260px;
-        height: 200px;
-    }
+.cartao{
+width: 260px;
+height: 200px;
+}
 
-    .cartao-imagem{
-        width: 100%;
-    }
+.cartao-imagem{
+width: 100%;
+}
 
-    body{
-        
-    }
+body{
+display: flex;
+flex-direction: column;
+min-height: 100v;
+background-color: rgb(3, 107, 3);
+}
+
+main{
+flex: 1;
+display: flex;
+flex-direction: center;
+}
+
+.cabecalho-link{
+color: aqua;
+text-decoration: none;  
+}
+
+h1{
+    color: black;
+    font-size:  24px;
+}
+
+footer{
+    background-color: blueviolet;
+    padding: 15px 25px;
+    color: antiquewhite;
+}
+
+.cartao-interno{
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.cartao:hover .cartao-interno{
+    transform: rotateY(180deg);
+}
+
+.cartao-frente, .cartao-verso{
+    
+}
